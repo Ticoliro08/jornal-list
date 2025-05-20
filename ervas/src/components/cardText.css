@@ -89,12 +89,15 @@
  
 
   .side-nav {
-    width: 30%;
+display: none;
 
   }
 
+
+
+
   .main-nav {
-  font-size: 2vw;
+  font-size: 3vw;
   }
 
   .card img.static-img {

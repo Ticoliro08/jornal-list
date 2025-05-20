@@ -50,17 +50,16 @@ border-color: #849cc8;
 
 }
 .menu {
-    background-color: white; /* Cor de fundo do menu */
-    padding: 3%; /* Preenchimento interno */
-    position: absolute; /* Para posicionar o menu */
-    top:85px; /* Ajuste conforme necessário */
-    right: 0; /* Alinhado à esquerda */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para o menu */
-    display: flex;
-    align-items:flex-end;
-    position: fixed;
-
-    
+  background-color: white;
+  padding: 3%;
+  position: fixed;
+  top: 85px;
+  right: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  z-index: 999;
 }
 
 .menu ul {
@@ -83,29 +82,40 @@ border-color: #849cc8;
 }
 
 
-@media (max-width: 1024px)  {
-   
+/* Responsividade para telas pequenas */
+@media (max-width: 1024px) {
+  .headerBox h1 {
+    font-size: 150%;
+    text-align: center;
+  }
 
-    .headerBox h1 {
-        font-size: 150%; /* Reduz o tamanho da fonte */
-        text-align: center; /* Centraliza o texto */
-    }
+  .bx-menu {
+    font-size: 8vw;
+        transition: all 2s;
 
-    .bx-menu{
-        font-size: 8vw;
-        
-    }
+  }
 
-  
-
-    .cadastro{
-        font-size: 2vw;
-    }
-
-
-
+  /* 🔽 Menu vira bloco abaixo do header */
+  .menu {
+    position: relative;
+    width: 80%;
+    box-shadow: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    margin-top:-3% ;
 
 
+    position: fixed;
+  }
+
+  .menu ul {
+    width: 100%;
+  }
+
+  .menu li {
+    margin: 8px 0;
+  }
 }
-
 /* ---------------------------------------------------------------- */
