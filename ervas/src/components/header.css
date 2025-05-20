@@ -82,8 +82,8 @@ border-color: #849cc8;
     color: black; /* Cor do texto */
 }
 
-/* Media Query para telas de até 480px */
-@media (max-width: 760px)  {
+
+@media (max-width: 1024px)  {
    
 
     .headerBox h1 {
@@ -93,8 +93,10 @@ border-color: #849cc8;
 
     .bx-menu{
         font-size: 8vw;
-        margin-right: 5%;
+        
     }
+
+  
 
     .cadastro{
         font-size: 2vw;
