@@ -49,11 +49,10 @@ function Header() {
                     <ul>
                         <a href='#topic1'><li>O que é</li></a>
                         <a href='#topic2'><li>Eugenia Uniflora</li></a>
-                        <a href='#topic3'><li>Citrus sinensis</li></a>
-                        {/* <a href='#topic4'><li>Revolução Russa</li></a>
-                        <a href='#topic5'><li>Fascismo Italiano</li></a>
-                        <a href='#topic6'><li>Crise de 1929</li></a>
-                        <a href='#topic7'><li>Revolução de 1930</li></a> */}
+                        <a href='#topic3'><li>Citrus Sinensis</li></a>
+                        <a href='#topic4'><li>Ocimum Basilicum</li></a>
+                        <a href='#topic5'><li>Peumus Boldus</li></a>
+                        <a href='#topic6'><li>Matricaria Chamomilla</li></a>
                     </ul>
                 </nav>
             )}

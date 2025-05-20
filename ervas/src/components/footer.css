@@ -1,13 +1,13 @@
 
 
 .bodyFooter {
-    background-color: #bfd4ad;
+    background-color: #fbfcfa;
     display: flex;
     flex-direction: column;
     padding: 2em;
     font-family: Arial, sans-serif;
     color: #2b2b2b;
-}
+    }
 
 .infoContatos {
     display: flex;

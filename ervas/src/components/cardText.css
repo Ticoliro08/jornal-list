@@ -3,7 +3,9 @@
     min-height: 100vh;
     background-color: #f3f4f6;
     font-family: sans-serif;
-  }
+padding-top: 15%;  
+padding-bottom: 5%;
+}
 
   .side-nav {
     width: 250px;
@@ -19,12 +21,13 @@
 
   .carousel-img {
     width: 100%;
-    height: 60%;
+    height: 40%;
     object-fit: cover;
     border-radius: 8px;
-    margin-bottom: 12px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+    margin-bottom: 10%;
+
     transition: opacity 0.5s ease-in-out;
+    
   }
 
   .anuncio-img {
@@ -33,11 +36,13 @@
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 12px;
+
   }
 
   .main-nav {
 
 padding: 24px;
+padding-top: 10%;
   }
 
   .card {
