@@ -38,7 +38,7 @@ const CardComNav = (props) => {
     <div className="container">
 
       {/* Navegação lateral */}
-      <nav className="side-nav">
+      {/* <nav className="side-nav">
         <img
           src={imagens[index]}
           alt={`Imagem de estudo ${index + 1}`}
@@ -53,7 +53,7 @@ const CardComNav = (props) => {
 
        
        
-      </nav>
+      </nav> */}
 
       {/* Card principal */}
 
@@ -71,6 +71,10 @@ const CardComNav = (props) => {
             <p className="card-text">{props.texto2}</p>
             <br />
             <p className="card-text">{props.texto3}</p>
+            <br />
+            <p className="card-text"><strong>{props.texto4}</strong></p>
+            <br />
+            <p className="card-text"><strong>{props.texto5}</strong></p>
 
           </div>
 

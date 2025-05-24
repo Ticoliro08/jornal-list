@@ -1,11 +1,12 @@
 .container {
   display: flex;
   min-height: 100vh;
-  background-color: #f3f4f6;
   font-family: sans-serif;
   padding-top: 15%;
   padding-bottom: 5%;
   flex-wrap: wrap;
+  background-image: url(../assets/home/quadro-de-folhas-verdes-em-branco-com-espaco-de-copia.jpg);
+  background-size: cover;
 }
 
 .side-nav {
@@ -53,11 +54,18 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  transition: all 1s ease;
 }
+
 
 .card img.static-img {
   width: 40%;
   height: auto;
+    transition: all 1s ease;
+
+}
+.card img.static-img:hover{
+  transform: scale(1.01);
 }
 
 .card-content {
